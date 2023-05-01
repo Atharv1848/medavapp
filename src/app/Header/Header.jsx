@@ -43,7 +43,7 @@ export default function Header() {
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
-                id="navbarDropdown"
+                id="speciality"
                 role="button"
                 data-toggle="dropdown"
                 aria-haspopup="true"
