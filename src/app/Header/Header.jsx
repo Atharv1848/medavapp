@@ -49,7 +49,7 @@ export default function Header() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Dropdown
+                Speciality
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a className="dropdown-item" href="#">
