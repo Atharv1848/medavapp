@@ -4,7 +4,7 @@ import medaversity from "../assets/images/default.png";
 
 function SampleCard() {
   return (
-    <div className="card" style={{ width: "18rem" }}>
+    <div className="card">
       <Image
         className="card-img-top"
         src={medaversity}
@@ -25,3 +25,5 @@ function SampleCard() {
 }
 
 export default SampleCard;
+
+

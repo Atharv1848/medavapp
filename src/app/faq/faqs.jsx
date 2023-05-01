@@ -4,7 +4,7 @@ import "./style.scss";
 const Faqs = () => {
   return (
     <div className="faqContainer">
-      <h2>FAQs</h2>
+      <h2 className='text-center'>FAQs</h2>
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">

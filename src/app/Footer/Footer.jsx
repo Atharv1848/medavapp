@@ -6,11 +6,11 @@ import medaversity from "../assets/images/medaversitylogo-47.png"
 
 export default function Footer() {
   return (
-    <div className=" footContainer">
+    <div className="footContainer">
       <div className="container">
         <footer className="py-5">
-          <div className="row">
-            <div className="col-3">
+          <div className="row gap-3">
+            <div className="col-12 col-md-3">
               <div style={{backgroundColor: "#fff",padding: "20px",borderRadius: "20px",width: "200px"}}> 
               <Image
                 src={medaversity}
@@ -21,8 +21,7 @@ export default function Footer() {
               </div>
               
             </div>
-
-            <div className="col-3">
+            <div className="col-12 col-md-3">
               <h5>Company Info</h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
@@ -47,8 +46,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-
-            <div className="col-3">
+            <div className="col-12 col-md-3">
               <h5>legal </h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">

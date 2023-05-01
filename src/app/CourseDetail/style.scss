@@ -1,8 +1,32 @@
 .detailContainer{
     background-color: rgb(255, 240, 240);
-    padding-top: 120px;
+    padding-top:40px;
     .courseDesc{
         line-height: 2;
         font-size: 18px;
     }
+    .felloship-btn{
+        background: #fff;
+        border-radius: 30px;
+        padding: 10px 25px;
+        display: inline-block;
+      
+    }
+    .arrow-icon{
+        background: #fff;
+        border-radius: 30px;
+        padding: 10px 15px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
 }
+
+@media(max-width:767px){
+        .right-image{
+            text-align: center;
+            margin: 15px 0;
+        }
+    }

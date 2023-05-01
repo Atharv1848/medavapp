@@ -5,9 +5,7 @@ export default function Video() {
   return (
     <div className="outer">
       <ReactResponsive
-        url="https://media.exper.com/exper-content-temp/200.mp4"
-        width="300px"
-        height="500px"
+        url="https://media.exper.com/exper-content-temp/200.mp4"       
         controls
         playing
         className="react-player"

@@ -11,6 +11,8 @@ import Description from "../Description/Description";
 import SampleCard from "../SampleCard/SampleCard";
 import badgeIcon from "../assets/images/badge.png"
 import shareIcon from "../assets/images/share.png"
+import BackIcon from "../assets/images/back.png"
+import InviteCard from "../SampleCard/InviteCard";
 
 export default function CousreDetail() {
   return (
@@ -18,64 +20,85 @@ export default function CousreDetail() {
       <div className="container">
         <div className="row">
           <div className="col-sm-8 mt-2">
+            <div className="d-flex align-items-center mb-3 gap-3">
+              <div className="arrow-icon">
+                <Image
+                  src={BackIcon}
+                  alt="Picture of the author" 
+                  width={20}
+                />
+                </div>
+            <div className="felloship-btn">Fellowship</div>
+            </div>
             <h1>{App_Text["headerText"]}</h1>
             <p className="courseDesc">{App_Text["ParagraphText"]}</p>
             <div className="row">
-              <div className="col-sm-4">
-                <div className="modal1">
+              <div className="col-sm-6">
+                <div className="modal1 d-flex gap-3">
                   <Modal2 />
-                </div>
-              </div>
-              <div className="col-sm-4">
-                <div className="modal1">
                   <Modal1 />
                 </div>
               </div>
-              <div className="col-sm-4">
-                <span style={{marginRight: "50px"}}>
+              {/* <div className="col-sm-3">
+                <div className="modal1">
+                  <Modal1 />
+                </div>
+              </div> */}
+              <div className="col-sm-4 col-12">  
+              <div className="right-image">
+                <span>
                   <Image
                   src={badgeIcon}
                   alt="Picture of the author"
                   width={40}
                   height={40}
-                /></span>                
+                />
+                </span>                
                 <Image
                   src={shareIcon}
                   alt="Picture of the author"
                   width={40}
                   height={40}
+                  className="ms-3"
                 />
+                </div>
+               
                 </div>
             </div>
           </div>
-          <div className="col-sm-4 vedio">
+          <div className="col-sm-3">
             <Video />
           </div>
         </div>
-        <div className="row">
+        <div className="row mt-5">
           <div className="col-sm-8 mt-2">
             <KeyFeatures />
+            <Description />
+            <Faqs />
           </div>
           <div className="col-sm-4 mt-2">
-           <SampleCard />
+          <InviteCard />
+          <InviteCard />
+          <InviteCard />
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-sm-8 mt-2">
             <Description />
         </div>
         <div className="col-sm-4 mt-2">
+        <SampleCard />
            <SampleCard />
           </div>
-        </div>
-        <div className="row">
+        </div> */}
+        {/* <div className="row">
           <div className="col-sm-8 mt-2">
           <Faqs />
         </div>
         <div className="col-sm-4 mt-2">
            <SampleCard />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

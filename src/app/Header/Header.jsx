@@ -3,17 +3,18 @@ import "./style.scss";
 import { App_Text } from "../language/English";
 import Image from "next/image";
 import medaversity from "../assets/images/medaversitylogo-47.png";
+import BackIcon from "../assets/images/back.png"
 
 export default function Header() {
   return (
     <nav className="headContainer navbar navbar-expand  justify-content-between bg-light">
-      <div className="container-fluid headContent">
+      <div className="container headContent">
         <a className="navbar-brand" href="#">
           <Image
             src={medaversity}
             alt="Picture of the author"
-            width={100}
-            height={30}
+            width={80}
+            height={20}
           />
         </a>
         <button
@@ -25,7 +26,7 @@ export default function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+         <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto ">
@@ -65,12 +66,20 @@ export default function Header() {
               </div>
             </li>
           </ul>
-            <button type="button" className="signup">
-              Login
-            </button>
-            <button type="button" className="signup">
+          <div>
+           <Image       
+            src={BackIcon}
+            alt="Picture of the author"   
+            className="img-fluid me-3 mt-1"
+            width={20}
+          />
+           <button type="button" className="signup">
               Sign up
             </button>
+            <button type="button" className="login">
+              Login
+            </button>
+            </div>
         </div>
       </div>
     </nav>
