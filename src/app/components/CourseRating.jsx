@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Rating } from 'react-simple-star-rating'
 
 export default function CourseRating() {
-  const [rating, setRating] = useState(0)
+  const [rating, setRating] = useState(3)
 
   // Catch Rating value
   const handleRating = (rate) => {
@@ -22,6 +22,7 @@ export default function CourseRating() {
         onPointerEnter={onPointerEnter}
         onPointerLeave={onPointerLeave}
         onPointerMove={onPointerMove}
+        initialRate={rating}
         /* Available Props */
       />
     </div>

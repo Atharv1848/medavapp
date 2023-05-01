@@ -5,8 +5,7 @@ import BackIcon from "../assets/images/back.png"
 
 function InviteCard() {
   return (
-    <div className="card mb-4">
-      
+    <div className="card mb-4 mr-2">
       <div className="card-body">
       <Image
         className="card-img-top"

@@ -1,13 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./style.scss";
 import { App_Text } from "../language/English";
 import Image from "next/image";
 import medaversity from "../assets/images/medaversitylogo-47.png";
-import BackIcon from "../assets/images/back.png"
+import BackIcon from "../assets/images/back.png";
 
 export default function Header() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+
+  useEffect(() => {
+    window.addEventListener(
+      "resize",
+      () => {
+        const ismobile = window.innerWidth < 1200;
+        if (ismobile !== isMobile) setIsMobile(ismobile);
+      },
+      false
+    );
+  }, [isMobile]);
+
   return (
-    <nav className="headContainer navbar navbar-expand  justify-content-between bg-light">
+    <nav
+      className={`${
+        isMobile
+          ? "headContainer navbar navbar-collapse  justify-content-between bg-light"
+          : "headContainer navbar navbar-expand bg-light"
+      }`}
+    >
+      {" "}
       <div className="container headContent">
         <a className="navbar-brand" href="#">
           <Image
@@ -26,21 +46,11 @@ export default function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-         <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto ">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" href="#">
-                Careers
-              </a>
-            </li>
-            <li className="nav-item dropdown">
+          <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -49,6 +59,7 @@ export default function Header() {
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
+                style={{color: "grey",fontSize: "14px"}}
               >
                 Speciality
               </a>
@@ -65,21 +76,26 @@ export default function Header() {
                 </a>
               </div>
             </li>
+            <li className="nav-item">
+              <a className="nav-link active" href="#" style={{color: "grey",fontSize: "14px"}}>
+                Careers
+              </a>
+            </li>            
           </ul>
           <div>
-           <Image       
-            src={BackIcon}
-            alt="Picture of the author"   
-            className="img-fluid me-3 mt-1"
-            width={20}
-          />
-           <button type="button" className="signup">
+            <Image
+              src={BackIcon}
+              alt="Picture of the author"
+              className="img-fluid me-3 mt-1"
+              width={20}
+            />
+            <button type="button" className="signup">
               Sign up
             </button>
             <button type="button" className="login">
               Login
             </button>
-            </div>
+          </div>
         </div>
       </div>
     </nav>
