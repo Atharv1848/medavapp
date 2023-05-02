@@ -1,29 +1,34 @@
 import React from "react";
 import Image from "next/image";
-import medaversity from "../assets/images/default.png";
+import GroupSrc from "../assets/images/group.png";
+import ShareBlueIcon from "../assets/images/share-blue.png"
 
 function SampleCard() {
   return (
-    <div className="card">
+    <div className="card mb-4 mr-2">
+      <div className="card-body">
       <Image
         className="card-img-top"
-        src={medaversity}
-        alt="Picture of the author"
-        width={450}
-        height={200}
+        src={GroupSrc}
+        alt="Picture of the author"  
+        width={200}      
       />
-      <div className="card-body">
-        <h5 className="card-title">Card title</h5>
+        <h5 className="card-title">Invite your Friends</h5>
         <p className="card-text" style={{ color: "grey" }}>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Enroll in the best Medvarsity courses and grow your skills
         </p>
-        <p> Some Description...</p>
+        <div className="d-flex align-items-center">
+        <a href="#" target="_blank" style={{textDecoration: "none",color: "#57577d",fontWeight: "700"}}>Invite Now</a>
+        <Image       
+        src={ShareBlueIcon}
+        alt="Picture of the author"   
+        className="img-fluid ms-2 mt-1"
+        width={15}
+       />
+        </div>
       </div>
     </div>
   );
 }
 
 export default SampleCard;
-
-

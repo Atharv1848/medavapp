@@ -8,11 +8,11 @@ import { App_Text } from "../language/English";
 import Faqs from "../faq/faqs";
 import KeyFeatures from "../KeyFeatures/KeyFeatures";
 import Description from "../Description/Description";
-import SampleCard from "../SampleCard/SampleCard";
 import badgeIcon from "../assets/images/badge.png";
 import shareIcon from "../assets/images/share.png";
 import BackIcon from "../assets/images/back.png";
 import InviteCard from "../SampleCard/InviteCard";
+import SampleCard from "../SampleCard/SampleCard";
 import CourseRating from "../components/CourseRating";
 import BatchComponent from "../components/BatchComponent";
 
@@ -49,16 +49,14 @@ export default function CousreDetail() {
                     <Image
                       src={badgeIcon}
                       alt="badge"
-                      width={40}
-                      height={40}
+                      width={35}
                       style={{borderRadius: "20px",marginTop: "5px"}}
                     />
                   </span>
                   <Image
                     src={shareIcon}
                     alt="Picture of the author"
-                    width={40}
-                    height={40}
+                    width={30}
                     className="ms-3"
                     style={{borderRadius: "20px",marginTop: "5px"}}
                   />
@@ -77,8 +75,7 @@ export default function CousreDetail() {
             <Faqs />
           </div>
           <div className="col-sm-3 mt-2">
-            <InviteCard />
-            <InviteCard />
+            <SampleCard />
             <InviteCard />
           </div>
         </div>

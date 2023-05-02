@@ -1,7 +1,5 @@
 .headContainer {
-  .headContent {
     padding: 10px 100px 10px 100px;
-  }
   .signup {
     padding: 8px 30px;
     background-color: rgb(0 0 0 / 84%);
@@ -19,21 +17,27 @@
     font-size: 12px;
     background: none;
   }
+  #basic-nav-dropdown{
+     margin-left: 300px;
+  }
 }
 
 
 
 @media (max-width: 767px) {
     .headContainer {
-      margin-left: -80px;
-      .signup {
-        display: none;
-      }
-      .login {
-        display: none;
-      }
+      .navbar-brand {
+          margin-left: -80px !important;
+       }
+       .navbar-toggler {
+        position: relative;
+        left: 50px;
+       }
       .searchIcon{
         display: none;
       }
+      #basic-nav-dropdown{
+        margin-left: 0px;
+     }
     }
   }
