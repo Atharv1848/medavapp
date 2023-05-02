@@ -1,30 +1,69 @@
 import React from "react";
 import Image from "next/image";
-import GroupSrc from "../assets/images/group.png";
-import ShareBlueIcon from "../assets/images/share-blue.png"
+import ClockIcon from "../assets/images/ClockIcon.png";
+import BriefCaseIcon from "../assets/images/BriefCaseIcon.png";
+import CertificateIcon from "../assets/images/CertificateIcon.png";
+import DownloadIcon from "../assets/images/DownloadIcon.png";
+import PDFIcon from "../assets/images/PDFIcon.png";
+import "./style.scss";
 
 function SampleCard() {
   return (
     <div className="card mb-4 mr-2">
       <div className="card-body">
-      <Image
-        className="card-img-top"
-        src={GroupSrc}
-        alt="Picture of the author"  
-        width={200}      
-      />
-        <h5 className="card-title">Invite your Friends</h5>
-        <p className="card-text" style={{ color: "grey" }}>
-        Enroll in the best Medvarsity courses and grow your skills
-        </p>
-        <div className="d-flex align-items-center">
-        <a href="#" target="_blank" style={{textDecoration: "none",color: "#57577d",fontWeight: "700"}}>Invite Now</a>
-        <Image       
-        src={ShareBlueIcon}
-        alt="Picture of the author"   
-        className="img-fluid ms-2 mt-1"
-        width={15}
-       />
+        <div className="whitebgNpadding">
+          <h6 className="card-title">
+            <Image
+              src={ClockIcon}
+              alt="Picture of the author"
+              className="img-fluid ms-2 mt-1"
+              width={30}
+            />
+            Duration
+          </h6>
+        </div>
+        <div className="whitebgNpadding">
+          <h5 className="card-title">
+            <Image
+              src={BriefCaseIcon}
+              alt="Picture of the author"
+              className="img-fluid ms-2 mt-1"
+              width={30}
+            />
+            Sample Certificate
+          </h5>
+          <p className="card-text" style={{ color: "grey" }}>
+            <Image
+              src={CertificateIcon}
+              alt="Picture of the author"
+              className="img-fluid ms-2 mt-1"
+              width={250}
+            />
+          </p>
+        </div>
+        <div className="whitebgNpadding">
+          <h6> Cousre Eligibility</h6>
+          <ul>
+            <li>MD/MS/DNB</li>
+            <li>MBBS</li>
+          </ul>
+        </div>
+        <div className="whitebgNpadding">
+          <h6 className="card-title">
+            <Image
+              src={PDFIcon}
+              alt="Picture of the author"
+              className="img-fluid ms-2 mt-1 mr-1"
+              width={30}
+            />
+            Brouchure Download
+            <Image
+              src={DownloadIcon}
+              alt="Picture of the author"
+              className="img-fluid ms-2 mt-1"
+              width={30}
+            />
+          </h6>
         </div>
       </div>
     </div>
