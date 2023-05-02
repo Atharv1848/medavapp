@@ -37,7 +37,7 @@ export default function CousreDetail() {
               <div className="col-sm-12 mt-4 mb-4">
                 <BatchComponent />
               </div>
-              <div className="col-sm-6 mt-4 mb-4">
+              <div className="col-sm-5 mt-4 mb-4">
                 <div className="modal1 d-flex gap-3">
                   <Modal2 />
                   <Modal1 />
@@ -48,9 +48,10 @@ export default function CousreDetail() {
                   <span>
                     <Image
                       src={badgeIcon}
-                      alt="Picture of the author"
+                      alt="badge"
                       width={40}
                       height={40}
+                      style={{borderRadius: "20px",marginTop: "5px"}}
                     />
                   </span>
                   <Image
@@ -59,6 +60,7 @@ export default function CousreDetail() {
                     width={40}
                     height={40}
                     className="ms-3"
+                    style={{borderRadius: "20px",marginTop: "5px"}}
                   />
                 </div>
               </div>
@@ -74,7 +76,7 @@ export default function CousreDetail() {
             <Description />
             <Faqs />
           </div>
-          <div className="col-sm-4 mt-2">
+          <div className="col-sm-3 mt-2">
             <InviteCard />
             <InviteCard />
             <InviteCard />
