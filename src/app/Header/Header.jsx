@@ -6,28 +6,8 @@ import medaversity from "../assets/images/medaversitylogo-47.png";
 import BackIcon from "../assets/images/back.png";
 
 export default function Header() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
-
-  useEffect(() => {
-    window.addEventListener(
-      "resize",
-      () => {
-        const ismobile = window.innerWidth < 1200;
-        if (ismobile !== isMobile) setIsMobile(ismobile);
-      },
-      false
-    );
-  }, [isMobile]);
-
   return (
-    <nav
-      className={`${
-        isMobile
-          ? "headContainer navbar navbar-collapse  justify-content-between bg-light"
-          : "headContainer navbar navbar-expand bg-light"
-      }`}
-    >
-      {" "}
+    <nav className="navbar navbar-expand bg-light">
       <div className="container headContent">
         <a className="navbar-brand" href="#">
           <Image
@@ -41,14 +21,14 @@ export default function Header() {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
+          data-bs-target="#navbarSupportedContent"
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto ">
           <li className="nav-item dropdown">
               <a
