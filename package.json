@@ -13,6 +13,7 @@
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
     "bootstrap": "^5.2.3",
+    "font-awesome": "^4.7.0",
     "next": "13.3.1",
     "react": "18.2.0",
     "react-bootstrap-accordion": "^1.0.0",

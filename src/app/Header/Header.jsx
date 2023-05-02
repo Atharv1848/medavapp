@@ -9,6 +9,7 @@ export default function Header() {
   return (
     <nav className="navbar navbar-expand bg-light">
       <div className="container headContent">
+
         <a className="navbar-brand" href="#">
           <Image
             src={medaversity}

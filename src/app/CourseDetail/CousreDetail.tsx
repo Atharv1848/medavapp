@@ -28,7 +28,7 @@ export default function CousreDetail() {
               </div>
               <div className="felloship-btn">Fellowship</div>
             </div>
-            <h2>{App_Text["headerText"]}</h2>
+            <h2 className="courseTitle">{App_Text["headerText"]}</h2>
             <p className="courseDesc">{App_Text["ParagraphText"]}</p>
             <div className="row">
               <div className="col-sm-12 mt-4 mb-4">

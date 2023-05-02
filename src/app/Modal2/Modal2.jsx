@@ -36,22 +36,22 @@ export default function Modal2() {
             <div className="modal-body">
         <form>
              <div class="form-group">
-              <label for="exampleInputFirstName">First Name*</label>
+              <label htmlFor="exampleInputFirstName">First Name*</label>
               <input type="text"  id="exampleInputFirstName" placeholder="First Name" class="form-control" />
             </div>
 
             <div class="form-group">
-              <label for="exampleInputLastName">Last Name*</label>
+              <label htmlfor="exampleInputLastName">Last Name*</label>
               <input type="text"  id="exampleInputLastName" placeholder="Last Name" class="form-control" />
             </div>
 
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address*</label>
+              <label htmlFor="exampleInputEmail1">Email address*</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter E-mail'/>
             </div>
 
             <div class="form-group">
-              <label for="exampleInputEmail1">Mobile Number*</label>
+              <label htmlFor="exampleInputEmail1">Mobile Number*</label>
               <input type="email" class="form-control" id="exampleInputNumber" placeholder='Mobile Number'/>
             </div>
            
