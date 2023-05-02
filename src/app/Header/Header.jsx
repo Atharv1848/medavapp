@@ -81,7 +81,7 @@ export default function Header() {
             <Image
               src={SearchIcon}
               alt="Picture of the author"
-              className="img-fluid me-3 mt-1"
+              className="img-fluid me-3 mt-1 searchIcon"
               width={50}
             />
             <button type="button" className="signup">

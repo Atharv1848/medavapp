@@ -1,9 +1,5 @@
 .headContainer {
   .headContent {
-    // padding-top: 10px;
-    // padding-left: 100px;
-    // padding-right: 100px;
-    // padding-bottom: 10px;
     padding: 10px 100px 10px 100px;
   }
   .signup {
@@ -24,3 +20,20 @@
     background: none;
   }
 }
+
+
+
+@media (max-width: 767px) {
+    .headContainer {
+      margin-left: -80px;
+      .signup {
+        display: none;
+      }
+      .login {
+        display: none;
+      }
+      .searchIcon{
+        display: none;
+      }
+    }
+  }
