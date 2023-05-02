@@ -18,6 +18,7 @@ function Header() {
             alt="Picture of the author"
             width={110}
             height={30}
+            style={{borderRadius: "30px"}}
           /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -40,8 +41,8 @@ function Header() {
             <Image
               src={SearchIcon}
               alt="Picture of the author"
-              className="img-fluid me-3 mt-1 searchIcon"
-              width={50}
+              className="img-fluid me-3 mt-0 searchIcon"
+              width={35}
             />
             <button type="button" className="signup">
               Sign up
