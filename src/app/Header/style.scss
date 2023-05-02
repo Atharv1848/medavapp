@@ -1,26 +1,26 @@
-.headContainer{    
-    .headContent{
-        // padding-top: 10px;
-        // padding-left: 100px;
-        // padding-right: 100px;
-        // padding-bottom: 10px;
-        padding: 10px 100px 10px 100px;
-    }
-    .signup {
-        padding: 5px 25px;
-        background-color: #000000b3;
-        border-radius: 30px;
-        font-size: 14px;
-        color:#fff;
-        margin-right: 10px;
-        font-weight: 600;
-    }
-    .login{
-        color:#000;
-        border: 0;
-        outline: 0;
-        font-weight: 500;
-        font-size: 12px;
-        background: none;
-    }
+.headContainer {
+  .headContent {
+    // padding-top: 10px;
+    // padding-left: 100px;
+    // padding-right: 100px;
+    // padding-bottom: 10px;
+    padding: 10px 100px 10px 100px;
+  }
+  .signup {
+    padding: 8px 30px;
+    background-color: rgb(0 0 0 / 84%);
+    border-radius: 30px;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 10px;
+    font-weight: 600;
+  }
+  .login {
+    color: #000;
+    border: 0;
+    outline: 0;
+    font-weight: 500;
+    font-size: 12px;
+    background: none;
+  }
 }

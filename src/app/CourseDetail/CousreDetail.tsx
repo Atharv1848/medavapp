@@ -21,10 +21,10 @@ export default function CousreDetail() {
     <div className="jumbotron detailContainer">
       <div className="container">
         <div className="row">
-          <div className="col-sm-8 mt-2">
+          <div className="col-sm-8 mt-1">
             <div className="d-flex align-items-center mb-3 gap-3">
-              <div className="arrow-icon">
-                <Image src={BackIcon} alt="Picture of the author" width={20} />
+              <div className="mt-1">
+                <Image src={BackIcon} alt="Picture of the author" width={40} />
               </div>
               <div className="felloship-btn">Fellowship</div>
             </div>

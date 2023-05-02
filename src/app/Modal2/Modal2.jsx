@@ -35,27 +35,27 @@ export default function Modal2() {
             </div>
             <div className="modal-body">
         <form>
-             <div class="form-group">
+             <div className="form-group">
               <label htmlFor="exampleInputFirstName">First Name*</label>
-              <input type="text"  id="exampleInputFirstName" placeholder="First Name" class="form-control" />
+              <input type="text"  id="exampleInputFirstName" placeholder="First Name" className="form-control" />
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <label htmlfor="exampleInputLastName">Last Name*</label>
-              <input type="text"  id="exampleInputLastName" placeholder="Last Name" class="form-control" />
+              <input type="text"  id="exampleInputLastName" placeholder="Last Name" className="form-control" />
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <label htmlFor="exampleInputEmail1">Email address*</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter E-mail'/>
+              <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter E-mail'/>
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <label htmlFor="exampleInputEmail1">Mobile Number*</label>
-              <input type="email" class="form-control" id="exampleInputNumber" placeholder='Mobile Number'/>
+              <input type="email" className="form-control" id="exampleInputNumber" placeholder='Mobile Number'/>
             </div>
            
-             <button type="submit" class="btn btn-primary">Submit</button>
+             <button type="submit" className="btn btn-primary">Submit</button>
         </form>
             </div>
           </div>
