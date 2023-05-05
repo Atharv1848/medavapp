@@ -1,7 +1,7 @@
 "use client";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap CSS
-import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import CourseDetail from "./CourseDetail/CousreDetail";
 export default function Home() {
   return (
