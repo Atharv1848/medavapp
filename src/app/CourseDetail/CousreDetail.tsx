@@ -15,13 +15,15 @@ import InviteCard from "../SampleCard/InviteCard";
 import SampleCard from "../SampleCard/SampleCard";
 import CourseRating from "../components/CourseRating";
 import BatchComponent from "../components/BatchComponent";
+import {Row, Col} from 'react-bootstrap/';
 
 export default function CousreDetail() {
   return (
     <div className="jumbotron detailContainer" >
       <div className="container">
-        <div className="row">
-          <div className="col-sm-8 mt-1">
+        <div className="mt-100">
+        <Row>
+        <Col lg={8}>         
             <div className="d-flex align-items-center mb-3 gap-3">
               <div className="mt-1">
                 <Image src={BackIcon} alt="Picture of the author" width={40} />
@@ -63,22 +65,24 @@ export default function CousreDetail() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-sm-3">
-            <Video />
-          </div>
+          
+          </Col>
+          <Col lg={1}></Col>
+          <Col lg={3}><Video /></Col>
+        </Row>
         </div>
-        <div className="row mt-5">
-          <div className="col-sm-8 mt-2">
+        
+        <Row className="mt-5">
+          <Col lg={8} className="mt-2">           
             <KeyFeatures />
             <Description />
-            <Faqs />
-          </div>
-          <div className="col-sm-3 mt-2">
+            <Faqs />          
+          </Col>          
+          <Col lg={4} className="mt-2">
             <SampleCard />
             <InviteCard />
-          </div>
-        </div>
+          </Col>
+        </Row>
       </div>
     </div>
   );
