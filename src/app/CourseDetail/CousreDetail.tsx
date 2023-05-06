@@ -18,7 +18,7 @@ import BatchComponent from "../components/BatchComponent";
 
 export default function CousreDetail() {
   return (
-    <div className="jumbotron detailContainer">
+    <div className="jumbotron detailContainer" >
       <div className="container">
         <div className="row">
           <div className="col-sm-8 mt-1">

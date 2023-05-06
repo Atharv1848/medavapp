@@ -23,47 +23,245 @@ export const App_Text = {
   HEADER_TEXT: {
     HEADER_LINKS: [
       {
-        linkName: "Speciality"
+        linkName: "Speciality",
       },
       {
-        linkName: "Courses"
+        linkName: "Courses",
       },
       {
-        linkName: "Sign Up"
+        linkName: "Sign Up",
       },
       {
-        linkName: "Login"
-      }
+        linkName: "Login",
+      },
     ],
-    HEADER_SPCL_LINKS: [
-      "Cardiology"
-    ],
+    HEADER_SPCL_LINKS: ["Cardiology"],
   },
   FOOTER_TEXT: {
     COMP_INFO_TITLE: "Company Info",
-    COMP_INFO: [{ linkName: 'About us' }],
-    COMP_ASSI: [{ linkName: 'Assimilate' }],    
-    COMP_CAREERS: [{ linkName: 'Careers' }],    
-    COMP_BOOK: [{ linkName: 'Books & Journal' }],    
-    LEGAL_TITLE: "Legal",    
+    COMP_INFO: [{ linkName: "About us" }],
+    COMP_ASSI: [{ linkName: "Assimilate" }],
+    COMP_CAREERS: [{ linkName: "Careers" }],
+    COMP_BOOK: [{ linkName: "Books & Journal" }],
+    LEGAL_TITLE: "Legal",
     FELLOWSHIP_TITLE: "FELLOWSHIP COURSES",
     FELLOWSHIP_COURSES: [{ linkName: "Diabetes maliurs.." }],
     FOOTER_LINKS: [
       {
-        linkName: "Privacy Policy"
+        linkName: "Privacy Policy",
       },
       {
-        linkName:"Terms & Conditions"
+        linkName: "Terms & Conditions",
       },
       {
-        linkName:"Financial Support"
+        linkName: "Financial Support",
       },
       {
-        linkName:"Help & Support"
+        linkName: "Help & Support",
       },
-    ]
-
-  }
-
-
-}
+    ],
+  },
+};
+export const LandingHomePage = {
+  homePageTitle: " Advanced medical skills at your fingertips",
+  SliderCards: [
+    {
+      Title: "Diabetes Mellitus with Contact Program",
+      Rating: "4.5",
+      months: "12 months",
+      button: "Preview",
+      courseType: "Fellowship",
+    },
+    {
+      Title: "Critical Care Medicine with Contact Program",
+      Rating: "4.5",
+      months: "12 months",
+      button: "Preview",
+      courseType: "Fellowship",
+    },
+    {
+      Title: "Family Medicine with Contact Program",
+      Rating: "4.0",
+      months: "12 months",
+      button: "Preview",
+      courseType: "Fellowship",
+    },
+    {
+      Title: "Clinical Cardiology with Contact Program",
+      Rating: "4.5",
+      months: "12 months",
+      button: "Preview",
+      courseType: "Fellowship",
+    },
+    {
+      Title: "Internal Medicine with Contact Program",
+      Rating: "4.5",
+      months: "12 months",
+      button: "Preview",
+      courseType: "Fellowship",
+    },
+    {
+      Title: "2D Echocardiography with Contact Program",
+      Rating: "4.0",
+      months: "6 months",
+      button: "Preview",
+    },
+    {
+      Title: "Endodontics with Contact Program",
+      Rating: "4.5",
+      months: "6 months",
+      button: "Preview",
+      courseType: "Fellowship",
+    },
+    {
+      Title: "Gynecology and Obstetrics with Contact Program",
+      Rating: "4.5",
+      months: "12 months",
+      button: "Preview",
+      courseType: "Fellowship",
+    },
+    {
+      Title: "Embryology with Contact Program",
+      Rating: "5.0",
+      months: "12 months",
+      button: "Preview",
+      courseType: "Fellowship",
+    },
+    {
+      Title: "Pediatrics with Contact Program",
+      Rating: "4.5",
+      months: "12 months",
+      button: "Preview",
+      courseType: "Fellowship",
+    },
+  ],
+  courses: "Trending Courses",
+  previewCards: [
+    {
+      Title: "Sports Rehabilitation with Contact Program",
+      Rating: "5.0",
+      months: "6 months",
+      button: "Preview",
+      courseType: "Fellowship",
+    },
+    {
+      Title: "Internal Medicine with US Rotations",
+      Rating: "5.0",
+      months: "12 months",
+      button: "Preview",
+      courseType: "Fellowship",
+    },
+    {
+      Title: "Clinical Oncology",
+      Rating: "5.0",
+      months: "3 months",
+      button: "Preview",
+      courseType: "Certificate",
+    },
+    {
+      Title: "Trauma Life Support",
+      Rating: "5.0",
+      months: "1 months",
+      button: "Preview",
+      courseType: "Certificate",
+    },
+    {
+      Title: "Advance Gastroentrerology",
+      Rating: "5.0",
+      months: "6 months",
+      button: "Preview",
+      courseType: "Advanced Certificate",
+    },
+    {
+      Title: "Embryology",
+      Rating: "5.0",
+      months: "6 months",
+      button: "Preview",
+      courseType: "Advanced Certificate",
+    },
+  ],
+  featured: "Featured",
+  featuredCard: {
+    title: "Neurological Rehabilitation w/o Contact Program",
+    Rating: "4.5",
+    months: "6 months",
+    button: "Preview",
+    courseType: "Fellowship",
+  },
+  simulationTitle: "An Immersive Learning Experience",
+  simulationCards: [
+    {
+      totalNumber: "1500+",
+      title: "Medical Cases",
+      ParagraphCard:
+        "Interactive case studies for precise diagnosis and customized treatment plans.",
+    },
+    {
+      totalNumber: "200+",
+      title: "Simulations",
+      ParagraphCard: "Master clinical procedures by hands-on training.",
+    },
+    {
+      totalNumber: "5000+",
+      title: "Books & Journals",
+      ParagraphCard:
+        "Access to credible content from leading publishers of medical books and journals.",
+    },
+  ],
+  journey: "Your Course Journey",
+  noOfDoctorsQuestions:
+    "Why are we the favourite of 500,000 doctors across 192 countries?",
+  noOfDoctorsPara:
+    "At Medvarsity, We intend looks ambiguous, can be changed or rephrased for a better clarity",
+  medavCards: [
+    {
+      title: "Institute of Choice",
+      Paragraph: "First & largest healthcare ed-tech company",
+    },
+    {
+      title: "Geographical Reach",
+      Paragraph: "Accreditation and courses partners across all continents",
+    },
+    {
+      title: "Industry Endorsed",
+      Paragraph: "By global healthcare organizations and hospitals",
+    },
+    {
+      title: "Testimony",
+      Paragraph:
+        "Our alumni work in the leading healthcare organizations globally",
+    },
+    {
+      title: "Case-Based Learning",
+      Paragraph:
+        "Only ed-tech brand to offer medical cases for better learning",
+    },
+    {
+      title: "Simulation Training",
+      Paragraph: "Hands-on experience on clinical procedures",
+    },
+  ],
+  MedavNumbers: {
+    medavHeading: "Medvarsity in Numbers",
+    learnersNumbers: "100K",
+    learnersTitle: "Active learners",
+    CountriesNumbers: "192",
+    learnersTitle: "Countries",
+    InteractionsNumbers: "2300K",
+    InteractionsTitle: "Monthly brand interactions",
+    AlumnisNumbers: "500K+",
+    AlumnisTitle: "Alumnis",
+  },
+  medavSupport: {
+    supporttitle: "Medvarsity Support",
+    queries: "For queries, feedback, & assistance (9 AM - 7 PM)",
+    callButton: "Request a call back",
+  },
+  trendingNews: {
+    Newstitle: "In the News",
+    newsList: [
+      "360° Approach in Heart failure Management- Dr Brajesh K Kunwar, Head Medicover Hosp Mumbai",
+      "Management of Pediatric Pneumonia by Dr Bharat Parmar, Head Peadiatrics, ZYDUS MEDICAL College",
+    ],
+  },
+};
