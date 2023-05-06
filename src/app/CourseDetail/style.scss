@@ -1,8 +1,8 @@
 .detailContainer {
-  background-color: rgb(255, 240, 240);
+  background-color:#f9f5fc;
   padding-top: 10px;
-  padding-left: 180px !important;
-  padding-right: 80px !important;
+  // padding-left: 180px !important;
+  // padding-right: 80px !important;
   .courseTitle {
     font-size: 38px;
     font-weight: 800;
@@ -26,6 +26,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .mt-100{
+    margin-top: 100px;
   }
 }
 
