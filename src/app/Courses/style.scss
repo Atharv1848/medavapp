@@ -1,0 +1,76 @@
+.course-list {
+    .course-box {
+        border-radius: 30px;
+        padding: 15px;
+        position: relative;
+        min-height: 370px;
+    }
+    .badge-position {
+        position: absolute;
+        right: 20px;
+        top:20px;        
+        .badge {
+            border-radius: 10px;
+            padding: 12px 24px;
+            color: #202431;
+            background: #fff;
+            font-size: 15px;
+        }
+    }
+    .course-image{
+        overflow: hidden;
+        min-width: 225px;
+        min-height: 200px;
+
+
+    }
+
+    .box-one {
+        background: #efded5;
+    }
+    .box-two {
+        background: #bdbdaa;
+    }
+    .box-three {
+        background: #eff7f9;
+    }
+    .box-four {
+        background: #ffd1d2;
+    }
+    .box-five {
+        background: #ffe3da;
+    }
+    .box-six {
+        background: #e183b6;
+    }
+}
+
+// Button Class
+.preview-btn{
+    border-radius: 15px;
+    padding:5px 32px;
+    color:#fff;
+    border: 0;
+}
+.btn-one{
+    background: #bb7751;
+    &:hover{
+        background: #94512b;
+    }
+}
+.btn-two{
+    background: #dbcbce;
+}
+.btn-three{
+    background: #333c3e;
+}
+
+.btn-four{
+    background: #b43532;
+}
+.btn-five{
+    background: #9e302c;
+}
+.btn-six{
+    background: #9c2d77;
+}
