@@ -1,0 +1,63 @@
+.header-bg{
+  background: #fff;
+  border-bottom: 1px solid #f5eded;
+  margin-bottom: 50px;
+.headContainer {
+    // padding: 10px 100px 10px 100px;
+    padding: 10px 0;
+    @media(max-width:767px){
+      padding: 10px 60px 10px 90px;
+    }
+  .signup {
+    padding: 8px 30px;
+    background-color: rgb(0 0 0 / 84%);
+    border-radius: 30px;
+    
+    font-size: 14px;
+    color: #fff;
+    margin-right: 10px;
+    font-weight: 600;
+  }
+  .login {
+    color: #000;
+    border: 0;
+    outline: 0;
+    font-weight:600;
+    font-size: 14px;
+    background: none;
+  } 
+  .search-bg{
+    background: #ececec;
+    width:40px;
+    height:40px;
+    min-width:40px;
+    min-height:40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+}
+.nav-right{
+  display: flex;
+  align-items: center;
+  
+}
+
+}
+
+@media (max-width: 767px) {
+    .headContainer {
+      .navbar-brand {
+          margin-left: -80px !important;
+       }
+       .navbar-toggler {
+        position: relative;
+        left: 50px;
+       }
+     
+      #basic-nav-dropdown{
+        margin-left: 0px;
+     }
+    }
+  }
