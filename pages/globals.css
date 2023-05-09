@@ -8,6 +8,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '../pages/assets/css/main.scss';
 
 
 @media (prefers-color-scheme: dark) {

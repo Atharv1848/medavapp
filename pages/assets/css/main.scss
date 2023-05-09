@@ -1,0 +1,26 @@
+    /* Course CSS */
+    .course-box {
+        border-radius: 30px;
+        padding: 15px;
+        position: relative;
+        min-height: 370px;
+        overflow: hidden;
+
+        @media(max-width:992px) {
+            margin-bottom: 30px;
+        }               
+            .badge {
+                border-radius: 10px;
+                padding: 12px 24px;
+                color: #202431;
+                background: #fff;
+                font-size: 15px;
+            
+        }      
+    }
+    .box-one {
+        background: #efded5;
+    }
+    .min-heigh770{
+        min-height: 770px;
+    }

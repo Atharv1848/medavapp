@@ -13,7 +13,7 @@ const Course = () => {
                 <h3>{LandingHomePage["courses"]}</h3>
                 <Nav.Link eventKey="link-1">View All</Nav.Link>
             </div>
-            <div className="course-list">
+            <div className="course-list mt-3">
                 <Row>
                     <Col lg={4}>
                         <div className="box-one course-box">
@@ -43,7 +43,7 @@ const Course = () => {
                             </div>
                         </div>
                     </Col>
-                    {/* <Col lg={4}>
+                    <Col lg={4}>
                         <div className="box-two course-box">
                             <div className="card-top">
                                 <div className="course-image">
@@ -98,9 +98,9 @@ const Course = () => {
                                 </div>
                             </div>
                         </div>
-                    </Col> */}
+                    </Col>
                 </Row>
-                {/* <Row className="mt-4 mb-5">
+                <Row className="mt-4 mb-5">
                     <Col lg={4}>
                         <div className="box-four course-box">
                             <div className="card-top">
@@ -185,7 +185,7 @@ const Course = () => {
                             </div>
                         </div>
                     </Col>
-                </Row> */}
+                </Row>
 
             </div>
 

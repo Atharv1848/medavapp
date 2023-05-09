@@ -4,6 +4,10 @@
         padding: 15px;
         position: relative;
         min-height: 370px;
+        overflow: hidden;
+        @media(max-width:992px){
+            margin-bottom: 30px;
+        }
     }
     .badge-position {
         position: absolute;
