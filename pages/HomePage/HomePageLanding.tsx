@@ -27,7 +27,7 @@ const HomePageLanding = () => {
               <h2 className="">{LandingHomePage["homePageTitle"]}</h2>
             </div>
           </Col>
-          <Col lg={9} className="d-none">
+          <Col lg={9} className="">
             {LandingHomePage["SliderCards"].map((item) => {
               return (
                 <SliderCards

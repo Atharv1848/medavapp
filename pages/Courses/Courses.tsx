@@ -3,7 +3,7 @@ import { LandingHomePage } from "../language/English";
 import Nav from 'react-bootstrap/Nav';
 import { Row, Col } from "react-bootstrap";
 import Image from "next/image";
-import ImageCourse from "../assets/images/co-image.png"
+import ImageCourse from "../assets/images/neurological.png"
 import Button from 'react-bootstrap/Button';
 
 const Course = () => {
