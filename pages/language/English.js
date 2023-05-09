@@ -265,3 +265,12 @@ export const LandingHomePage = {
     ],
   },
 };
+
+  export const SignupAndLogin = {
+    signTitle: "Enter your mobile number or email address to start learning",
+    inputMobileNo: "Enter your mobile number",
+    inputEmailAddress: "Enter your email address",
+    signupCheckboxLabel: "Accept to receive promotional messages and newsletter from Medvarsity",
+    signupButton: "Send OTP",
+    termsConditons:"By clicking on Send OTP, I Agree to the Terms and Conditions from Medvarsity",
+  };
