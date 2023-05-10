@@ -16,9 +16,13 @@ import SampleCard from "../SampleCard/SampleCard";
 import CourseRating from "../components/CourseRating";
 import BatchComponent from "../components/BatchComponent";
 import { Row, Col } from "react-bootstrap/";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 export default function CousreDetail() {
   return (
+    <>
+    < Header />
     <div className="jumbotron detailContainer">
       <div className="container">
         <div className="mt-100">
@@ -90,5 +94,7 @@ export default function CousreDetail() {
         </Row>
       </div>
     </div>
+    <Footer />
+    </>
   );
 }
