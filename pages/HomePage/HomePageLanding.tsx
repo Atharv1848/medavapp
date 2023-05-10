@@ -12,6 +12,7 @@ import Image from "next/image";
 import ImageCourse from "../../pages/assets/images/neurological.png";
 import Checkbox from "../../pages/assets/images/check-mark.png";
 import Button from "react-bootstrap/Button";
+import ExperienceCard from "../ExperiecceCard/ExperienceCard"
 
 const HomePageLanding = () => {
   const router = useRouter();
@@ -39,7 +40,7 @@ const HomePageLanding = () => {
                   <div>
                     <span>{LandingHomePage["MedavNumbers"]["AlumnisNumbers"]}</span>
                     <span className="ms-1">{LandingHomePage["MedavNumbers"]["AlumnisTitle"]}</span>
-                    </div>
+                  </div>
                 </div>
                 <div className="d-flex align-items-center gap-2">
                   <div>
@@ -53,7 +54,7 @@ const HomePageLanding = () => {
                   <div>
                     <span>{LandingHomePage["MedavNumbers"]["CountriesNumbers"]}</span>
                     <span className="ms-1">{LandingHomePage["MedavNumbers"]["learnersTitle"]}</span>
-                    </div>
+                  </div>
                 </div>
               </div>
               <div className="skills mb-2">
@@ -69,7 +70,7 @@ const HomePageLanding = () => {
                   <div>
                     <span>{LandingHomePage["MedavNumbers"]["AlumnisNumbers"]}</span>
                     <span className="ms-1">{LandingHomePage["MedavNumbers"]["AlumnisTitle"]}</span>
-                    </div>
+                  </div>
                 </div>
                 <div className="d-flex align-items-center gap-2">
                   <div>
@@ -83,7 +84,7 @@ const HomePageLanding = () => {
                   <div>
                     <span>{LandingHomePage["MedavNumbers"]["CountriesNumbers"]}</span>
                     <span className="ms-1">{LandingHomePage["MedavNumbers"]["learnersTitle"]}</span>
-                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -129,6 +130,12 @@ const HomePageLanding = () => {
           </Col>
         </Row>
       </Container>
+
+      <div className="light-bg">
+        <Container>
+          <ExperienceCard />
+        </Container>
+      </div>
     </div>
   );
 };
