@@ -1,4 +1,15 @@
 .landing {
     // background-color: rgb(255, 240, 240);
     margin-top: 100px;
+    .left-title{
+        h2{
+            font-size: 48px;
+            font-weight: 600;
+        }
+    }
+    .skills{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }

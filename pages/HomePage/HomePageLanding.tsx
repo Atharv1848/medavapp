@@ -10,6 +10,7 @@ import Nav from "react-bootstrap/Nav";
 import SlickSlider from "../slickSlider/slickSlider"
 import Image from "next/image";
 import ImageCourse from "../../pages/assets/images/neurological.png";
+import Checkbox from "../../pages/assets/images/check-mark.png";
 import Button from "react-bootstrap/Button";
 
 const HomePageLanding = () => {
@@ -24,11 +25,71 @@ const HomePageLanding = () => {
         <Row>
           <Col lg={3}>
             <div className="left-title">
-              <h2 className="">{LandingHomePage["homePageTitle"]}</h2>
+              <h2 className="mb-3">{LandingHomePage["homePageTitle"]}</h2>
+              <div className="skills mb-2">
+                <div className="d-flex align-items-center gap-2">
+                  <div>
+                    <Image
+                      src={Checkbox}
+                      alt="Picture of the author"
+                      className="img-fluid"
+                      width={20}
+                    />
+                  </div>
+                  <div>
+                    <span>{LandingHomePage["MedavNumbers"]["AlumnisNumbers"]}</span>
+                    <span className="ms-1">{LandingHomePage["MedavNumbers"]["AlumnisTitle"]}</span>
+                    </div>
+                </div>
+                <div className="d-flex align-items-center gap-2">
+                  <div>
+                    <Image
+                      src={Checkbox}
+                      alt="Picture of the author"
+                      className="img-fluid"
+                      width={20}
+                    />
+                  </div>
+                  <div>
+                    <span>{LandingHomePage["MedavNumbers"]["CountriesNumbers"]}</span>
+                    <span className="ms-1">{LandingHomePage["MedavNumbers"]["learnersTitle"]}</span>
+                    </div>
+                </div>
+              </div>
+              <div className="skills mb-2">
+                <div className="d-flex align-items-center gap-2">
+                  <div>
+                    <Image
+                      src={Checkbox}
+                      alt="Picture of the author"
+                      className="img-fluid"
+                      width={20}
+                    />
+                  </div>
+                  <div>
+                    <span>{LandingHomePage["MedavNumbers"]["AlumnisNumbers"]}</span>
+                    <span className="ms-1">{LandingHomePage["MedavNumbers"]["AlumnisTitle"]}</span>
+                    </div>
+                </div>
+                <div className="d-flex align-items-center gap-2">
+                  <div>
+                    <Image
+                      src={Checkbox}
+                      alt="Picture of the author"
+                      className="img-fluid"
+                      width={20}
+                    />
+                  </div>
+                  <div>
+                    <span>{LandingHomePage["MedavNumbers"]["CountriesNumbers"]}</span>
+                    <span className="ms-1">{LandingHomePage["MedavNumbers"]["learnersTitle"]}</span>
+                    </div>
+                </div>
+              </div>
             </div>
           </Col>
           <Col lg={9} className="">
-                <SlickSlider routing={routing}/>
+            <SlickSlider routing={routing} />
           </Col>
         </Row>
 
