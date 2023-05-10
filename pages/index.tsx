@@ -10,8 +10,8 @@ const index = () => {
   return (
     <>
       <Header />
-      <CourseDetail />
-      {/* <HomePageLanding /> */}
+      {/* <CourseDetail /> */}
+      <HomePageLanding />
       <Footer />
     </>
   );

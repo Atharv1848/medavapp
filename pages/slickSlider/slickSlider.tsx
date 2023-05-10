@@ -14,7 +14,7 @@ const SlickSlider = ({ routing }: any) => {
     centerMode: true,
     infinite: true,
     centerPadding: "60px",
-    slidesToShow: 1,
+    slidesToShow: 3,
     speed: 500,
   };
   return (
