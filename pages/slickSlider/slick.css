@@ -1,4 +1,8 @@
 /* Slider */
+.min-height450{
+    min-height: 450px;
+    max-height: 450px;
+}
 .slick-slider
 {
     position: relative;

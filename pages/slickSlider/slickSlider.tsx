@@ -6,6 +6,7 @@ import { Button } from "react-bootstrap";
 import ImageCourse from "../assets/images/neurological.png";
 import Image from "next/image";
 import { LandingHomePage } from "../language/English";
+import Course from "../CoursesLanding/CoursesLanding";
 
 const SlickSlider = ({ routing }: any) => {
   const Settings = {
@@ -19,10 +20,13 @@ const SlickSlider = ({ routing }: any) => {
   };
   return (
     <>
+    <div className="min-height450">
       <Slider {...Settings}>
         {LandingHomePage["SliderCards"].map((item) => {
           return (
             <div className="box-one course-box">
+              Hello World
+{/*              
               <div className="card-top">
                 <div className="course-image">
                   <Image
@@ -48,11 +52,12 @@ const SlickSlider = ({ routing }: any) => {
                   </div>
                   <div>{item.Rating}</div>
                 </div>
-              </div>
+              </div> */}
             </div>
           );
         })}
       </Slider>
+      </div>
     </>
   );
 };

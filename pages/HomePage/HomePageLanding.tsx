@@ -4,7 +4,7 @@ import "./style.scss";
 import "../../pages/assets/css/main.scss";
 import { LandingHomePage } from "../language/English";
 import { Container, Row, Col } from "react-bootstrap";
-import Course from "../Courses/Courses";
+import Course from "../CoursesLanding/CoursesLanding";
 import { useRouter } from "next/navigation";
 import Nav from "react-bootstrap/Nav";
 import SlickSlider from "../slickSlider/slickSlider"

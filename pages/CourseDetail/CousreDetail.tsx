@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image";
 import Modal1 from "../Modal1/Modal1";
 import Modal2 from "../Modal2/Modal2";

@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google';
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
